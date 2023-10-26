@@ -1,0 +1,12 @@
+.right-wrapper{
+    display: grid;
+    justify-content: right;
+    float: right;
+    width: 500px;
+}
+.top-heading{
+    display: flex;
+    justify-content: right;
+    float: right;
+    width: 500px;
+}

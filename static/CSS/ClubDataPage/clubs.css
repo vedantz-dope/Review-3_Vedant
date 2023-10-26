@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0px;
+}
+.nav-bar-top-wrapper{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar-top{
+    display: flex;
+    height: fit-content;
+    border-style: inset;
+    background-color: rgb(237, 235, 235);
+    transform: translateY(-20px);
+    margin: 0px;
+    padding: 0px;
+    
+}
+.nav-bar-top-logo-left{
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 50%;
+}
+.nav-bar-top-right-logo{
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 50%;
+    padding: 10px;
+
+}
+.top-right-img{
+    height: 100px;
+    width: 100px;
+    transform: translateY(10px);
+}
+.top-right-img-2{
+    height: 100px;
+    width: 100px;
+    transform: translateY(10px);
+}
+.top-left-img{
+    width: 250px;
+}
+.nav-bar-buttons{
+    display: flex;
+    padding: 15px;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-20px);
+    background-color:rgba(3, 86, 141, 0.977);
+    margin: 0px;
+    padding: 7px;
+}
+.nav-bar-bottom-buttons-name{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    list-style-type:none;
+    font-size: large;
+    font-weight:600;
+    color: aliceblue;
+    padding: 8px 10px;
+}
+.nav-bar-bottom-elements-size{
+    margin-left: 40px;  
+}
+.nav-bar-bottom-elements-size:hover{
+    background-color: rgb(238, 236, 236);
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+.heading-2{
+    display: flex;
+    margin: 0px;
+    padding: 35px;
+    transform: translateY(-20px);
+   justify-content: center;
+   background-color: rgb(26, 26, 26);
+}
+.Clubs-name{
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}

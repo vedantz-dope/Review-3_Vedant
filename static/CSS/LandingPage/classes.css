@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+.nav-font-large{
+  font-size: large;
+  font-family: 'Phudu', cursive;
+  color: #006699;
+}
+.font{
+    color: #006699;
+}
+.font-rem{
+    color: #006699;
+    font-family: 'Phudu', cursive;
+}
+.mar-right{
+    margin-right: 5px;
+}
+.nav-font{
+  font-size: 35px;
+  color: #006699;
+  font-family: 'Phudu', cursive;
+}
+.main-font{
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+.padding-main{
+  padding: 16px 8px;
+}
+.borders{
+    box-sizing: border-box;
+    border: 2px solid rgba(55, 52, 52, 0.554);
+    border-radius: 10px;
+}
+.padding-extra{
+    margin: 20px 30px;
+}
+.padding-btn{
+    padding: 5px;
+}
+.margin-main{
+  margin: 8px 10px;
+}
+.margin-extra{
+    margin: 20px 30px;
+}
+.nav-bar-dark-violet{
+  color: white;
+  background-color: #322348;
+}
+.nav-bar-violet{
+  color: white;
+  background-color: #563d7c;
+}
+.dark-mode-back{
+  background-color: #343a40;
+}
+.list-no-style{
+  list-style: none;
+}
+.light-mode-back{
+  color: #343a40;
+  background-color: white;
+}
+.primary-btn{
+  border: 2px solid rgba(63, 61, 61, 0.608);
+  font-size: 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff;
+}
+.position-center-screen{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+.hide-grid{
+  z-index: -2;
+  opacity: 0;
+}
+.show-grid{
+  z-index: 1;
+  opacity: 1;
+}
+.transition-slow{
+  transition: 0.9s;
+}
+.transition-fast{
+  transition: 0.4s;
+}
+.text-center{
+  text-align: center;
+}
+.width-half{
+    width: 50%;
+}
+.width-content{
+    width: max-content;
+}
+.width-full{
+    width: 100%;
+}
+.align-center{
+  align-items: center;
+}
+.align-left{
+    align-items: left;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.primary-light-text{
+  color: white;
+  background-color: #343a40;
+}
+.primary-dark-text{
+  color: #343a40;
+}
+.primary-flex{
+  display: flex;
+}
+.primary-grid{
+  display: grid;
+}
+.nav-image{
+    width: 150px;
+}
+.form-width{
+    width: 200px;
+    padding: 8px 5px;
+    font-family: 'Phudu', cursive;
+}
+.blur{
+  backdrop-filter: blur(10px);
+}
+/* :colors {
+  --primary: #007bff;
+  --dark: #343a40;
+  --violet: #563d7c;
+  --dark-violet: #322348;
+} */

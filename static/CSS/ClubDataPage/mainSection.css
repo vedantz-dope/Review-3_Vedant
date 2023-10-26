@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+.main-content-wrapper{
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+}
+.club-name{
+    font-family: 'Phudu', cursive;
+    color: #d55438;
+}
+.faculty-name{
+    float: left;
+    width: 50%;
+    font-family: 'Phudu', cursive;
+    color: #0abb92;
+}
+.contact-name{
+    float: left;
+    width: 50%;
+    justify-content: end;
+    display: flex;
+    font-family: 'Phudu', cursive;
+}
+.index-stock-wrapper{
+    margin-top: 20px;
+}
+.index-div{
+    width: 100vh;
+    display: flex;
+}
+.stock-prices-large-cap{
+    display: flex;
+    padding: 20px;
+}
+.card{
+    box-shadow: 0 0.0625rem 0.125rem rgba(0,0,0,.18);
+    cursor: pointer;
+    margin: 20px;
+    display: grid;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid rgba(41, 39, 39, 0.434);
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
+/* .card img{
+    margin: 3px 5px;
+    width: 30px;
+} */
+.stock-data-div{
+    display: flex;
+    margin-top: 10px;
+}
+.stock-change{
+    /* color: #0abb92; */
+    margin: 0px 10px;
+}
+.positive{
+    color: #0abb92;
+}
+.negative{
+    color: #d55438;
+}
+.index-heading{
+    font-family: 'Lato', sans-serif;
+}
+.nav-list-start{
+    float: left;
+    width: 50%;
+}
+.heading-link{
+    color: rgba(124, 173, 156, 0.723);
+}
+.nav-list-end{
+    text-align: end;
+    float: left;
+    width: 50%;
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+body{
+    overflow: hidden;
+}
+.nav-bar-top{
+    width: 100%;
+    color: white;
+    background-color: #333;
+    /* padding-left: 300px; */
+}
+.nav-bar-small{
+    padding: 10px;
+}
+.nav-bar-elements{
+    margin-left: 15px;
+}
+.nav-bar-list{
+    font-family: 'Phudu', cursive;
+    list-style-type: none;
+    display: flex;
+}
+.nav-bar-top{
+    display: flex;
+}
+.ionicons-icons{
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.nav-bar-top-languages,.nav-bar-top-logos{
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 50%;
+}
+.nav-bar-elements:hover,.ionicons-icons:hover{
+    color: aqua;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nav-bar-bottom-wrapper{
+    display: grid;
+}
+.nav-bar-bottom-top-segment{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar-bottom-clg-text-name{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+}
+.vit-bhopal-logo-img{
+    
+    width: 150px;
+}
+.vit-bhopal-logo-img:hover{
+    cursor: pointer;
+}
+.clg-text-clg-name{
+    font-size: 35px;
+    color: #006699;
+    font-family: 'Phudu', cursive;
+}
+.nav-bar-bottom-bottom-segment{
+    display: flex;
+    justify-content: center;
+}
+.nav-bar-bottom-elements{
+    border-radius: 3px;
+    padding: 8px 12px ;
+    margin-left: 30px;
+}
+.nav-bar-bottom-elements:hover{
+    font-weight: bolder;
+    background-color: #666;
+    color: rgb(255, 255, 255);
+    
+}
+.main{
+    overflow-y: scroll;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.news{
+    border: 0.5px solid rgba(50, 46, 46, 0.392);
+    border-radius: 5px;
+    margin-left: 60px;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: #006699;
+}
+a:visited{
+    text-decoration: none;
+    color: #006699;
+}
+.Announcements{
+    margin-bottom: 30px;
+    overflow-y: hidden;
+    height: max-content;
+}
+.card{
+    display: flex;
+    width: 550px;
+    padding: 20px;
+}
+.news-card-image-element{
+    width: 150px;
+}
+.news-text-content{
+    cursor: pointer;
+    align-items: start;
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 8px;
+}
+.news-heading-element{
+    font-size: 16px;
+    line-height: 0.1;
+    color: #006699;
+    margin-bottom: 15px;
+}
+.news-heading-element:hover{
+    text-decoration: underline;
+}
+.news-section-heading{
+    color: #666;
+    font-family: 'Phudu', cursive;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+.news-section-heading:hover{
+    text-decoration: underline;
+}
+.icon{
+    margin-right: 20px;
+}
+.accouncements-list-unordered{
+    margin-left: 20px;
+    list-style-type: disc;
+}
+.announcements-list-div{
+    width: max-content;
+}
+hr{
+    border-top: 0.2px dashed;
+}
+.announcements-list-elements{
+    cursor: pointer;
+    font-size: 15px;
+    color: #006699;
+    margin: 20px;
+}
+.main-right-div-wrapper{
+    display: grid;
+}
